@@ -12,6 +12,22 @@ public class LoriMain {
         System.out.println("Height: " + myHeight + " m");
 
         stats.saySomething(myName);
+
+        System.out.println ("-");
+
+        String myName2 = stats.getName2();
+        System.out.println("Name: " + myName2);
+
+        int myAge2 = stats.getAge2();
+        System.out.println("Age: " + myAge2);
+
+        int myLargura = stats.getLargura();
+        System.out.println("Largura: " + myLargura + " m");
+
+        double myHeight2 = stats.getHeight2();
+        System.out.println("Height: " + myHeight2 + " m");
+
+        stats.saySomething(myName2);
         System.out.println ("##################################################################################");
     }
 }
